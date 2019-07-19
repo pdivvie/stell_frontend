@@ -1,0 +1,26 @@
+@import "bootstrap";
+
+.fluid-container {
+  padding-top: 90px;
+}
+
+.bg-light {
+  background-color: #5a9be0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+ .news {
+  color: black;
+  margin: 20px;
+ }
+
+ .news a {
+  color: green;
+ }
+
+ .news > .card {
+  padding: 30px;
+ }

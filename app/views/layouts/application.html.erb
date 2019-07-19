@@ -10,6 +10,13 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <%= render 'shared/application_nav' %>
+    
+    <div class="fluid-container">
+      <div class="row">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
