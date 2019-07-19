@@ -58,3 +58,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'jquery-rails'
 gem 'twitter', '~> 6.2'
+
+
+#image uploads
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.3'
+gem 'carrierwave-aws', '~> 1.3'
