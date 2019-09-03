@@ -24,6 +24,9 @@ default: &default
 development:
   <<: *default
   database: stell_frontend_development
+  username: postgres
+  password: <%= Rails.application.credentials.development[:postgresql][:password] %>
+  host: localhost
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
